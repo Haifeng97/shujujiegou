@@ -106,15 +106,39 @@ void inOrderNoRecursive(BTNode *T){
     }
 }
 
+void postOrderNoRecursive(BTNode *T) {
+    BTNode *stack1[maxItem];
+    BTNode *stack2[maxItem];
+    BTNode *p;
+    int top1 = -1;
+    int top2 = -1;
+    stack1[++top1] = T;
+    while (top1 > -1) {
+        p = stack1[top1--];
+        stack2[++top2] = p;
+        if (p->lchild) {
+            stack1[++top1] = p->lchild;
+        }
+        if (p->rchild) {
+            stack1[++top1] = p->rchild;
+        }
+    }
+    while (top2 > -1) {
+        visit(stack2[top2--]);
+    }
+}
+
 int main(){
     BTNode *T;
     generateATree(T);
 //    preOrder(T);
 //    printf("--------------------------\n");
-    inOrder(T);
+////    inOrder(T);
+//    printf("--------------------------\n");
+    postOrder(T);
     printf("--------------------------\n");
-//    postOrder(T);
 //    preOrderNoRecursive(T);
-    inOrderNoRecursive(T);
+//    inOrderNoRecursive(T);
+    postOrderNoRecursive(T);
     return 0;
 };
