@@ -122,32 +122,32 @@ depend:
 	$(MAKE) -f CMakeFiles\0723.dir\build.make CMakeFiles/0723.dir/build
 .PHONY : 0723/fast
 
-main.obj: main.cpp.obj
+tree.obj: tree.cpp.obj
 
-.PHONY : main.obj
+.PHONY : tree.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\0723.dir\build.make CMakeFiles/0723.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+tree.cpp.obj:
+	$(MAKE) -f CMakeFiles\0723.dir\build.make CMakeFiles/0723.dir/tree.cpp.obj
+.PHONY : tree.cpp.obj
 
-main.i: main.cpp.i
+tree.i: tree.cpp.i
 
-.PHONY : main.i
+.PHONY : tree.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\0723.dir\build.make CMakeFiles/0723.dir/main.cpp.i
-.PHONY : main.cpp.i
+tree.cpp.i:
+	$(MAKE) -f CMakeFiles\0723.dir\build.make CMakeFiles/0723.dir/tree.cpp.i
+.PHONY : tree.cpp.i
 
-main.s: main.cpp.s
+tree.s: tree.cpp.s
 
-.PHONY : main.s
+.PHONY : tree.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\0723.dir\build.make CMakeFiles/0723.dir/main.cpp.s
-.PHONY : main.cpp.s
+tree.cpp.s:
+	$(MAKE) -f CMakeFiles\0723.dir\build.make CMakeFiles/0723.dir/tree.cpp.s
+.PHONY : tree.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... 0723
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... tree.obj
+	@echo ... tree.i
+	@echo ... tree.s
 .PHONY : help
 
 

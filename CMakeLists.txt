@@ -3,4 +3,5 @@ project(0723)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(0723 main.cpp)
+#add_executable(0723 main.cpp)
+add_executable(0723 tree.cpp)
