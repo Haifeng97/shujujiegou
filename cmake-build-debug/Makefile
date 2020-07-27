@@ -122,32 +122,32 @@ depend:
 	$(MAKE) -f CMakeFiles\0723.dir\build.make CMakeFiles/0723.dir/build
 .PHONY : 0723/fast
 
-tree.obj: tree.cpp.obj
+graph.obj: graph.cpp.obj
 
-.PHONY : tree.obj
+.PHONY : graph.obj
 
 # target to build an object file
-tree.cpp.obj:
-	$(MAKE) -f CMakeFiles\0723.dir\build.make CMakeFiles/0723.dir/tree.cpp.obj
-.PHONY : tree.cpp.obj
+graph.cpp.obj:
+	$(MAKE) -f CMakeFiles\0723.dir\build.make CMakeFiles/0723.dir/graph.cpp.obj
+.PHONY : graph.cpp.obj
 
-tree.i: tree.cpp.i
+graph.i: graph.cpp.i
 
-.PHONY : tree.i
+.PHONY : graph.i
 
 # target to preprocess a source file
-tree.cpp.i:
-	$(MAKE) -f CMakeFiles\0723.dir\build.make CMakeFiles/0723.dir/tree.cpp.i
-.PHONY : tree.cpp.i
+graph.cpp.i:
+	$(MAKE) -f CMakeFiles\0723.dir\build.make CMakeFiles/0723.dir/graph.cpp.i
+.PHONY : graph.cpp.i
 
-tree.s: tree.cpp.s
+graph.s: graph.cpp.s
 
-.PHONY : tree.s
+.PHONY : graph.s
 
 # target to generate assembly for a file
-tree.cpp.s:
-	$(MAKE) -f CMakeFiles\0723.dir\build.make CMakeFiles/0723.dir/tree.cpp.s
-.PHONY : tree.cpp.s
+graph.cpp.s:
+	$(MAKE) -f CMakeFiles\0723.dir\build.make CMakeFiles/0723.dir/graph.cpp.s
+.PHONY : graph.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... 0723
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... tree.obj
-	@echo ... tree.i
-	@echo ... tree.s
+	@echo ... graph.obj
+	@echo ... graph.i
+	@echo ... graph.s
 .PHONY : help
 
 

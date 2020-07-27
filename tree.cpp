@@ -128,6 +128,10 @@ void postOrderNoRecursive(BTNode *T) {
     }
 }
 
+BTNode * test(BTNode *T){
+    return T;
+}
+
 int main(){
     BTNode *T;
     generateATree(T);
