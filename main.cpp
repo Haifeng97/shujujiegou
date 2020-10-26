@@ -99,5 +99,3 @@ int main() {
     printList(list);
     return 0;
 }
-
-// test git
